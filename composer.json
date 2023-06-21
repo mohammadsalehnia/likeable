@@ -1,6 +1,10 @@
 {
     "name": "mohammadsalehnia/likeable",
     "description": "Implementing a like system for laravel's Eloquent models.",
+    "keywords": [
+        "laravel",
+        "likeable"
+    ],
     "autoload": {
         "psr-4": {
             "mohammadsalehnia\\Likeable\\": "src/"
