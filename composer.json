@@ -1,0 +1,25 @@
+{
+    "name": "mohammadsalehnia/likeable",
+    "description": "Implementing a like system for laravel's Eloquent models.",
+    "autoload": {
+        "psr-4": {
+            "mohammadsalehnia\\Likeable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Salehnia",
+            "email": "salehnia.msn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mohammadsalehnia\\Likeable\\LikeableServiceProvider"
+            ]
+        }
+    }
+}
