@@ -12,6 +12,7 @@
             "email": "salehnia.msn@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">= 7.4"
     },
