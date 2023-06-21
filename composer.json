@@ -1,16 +1,22 @@
 {
     "name": "mohammadsalehnia/likeable",
-    "description": "My likeable package",
+    "description": "Implementing a like system for laravel's Eloquent models.",
+    "keywords": [
+        "laravel",
+        "likeable"
+    ],
     "type": "library",
     "autoload": {
         "psr-4": {
             "mohammadsalehnia\\Likeable\\": "src/"
         }
     },
-    "authors": [{
-        "name": "Mohammad Salehnia",
-        "email": "salehnia.msn@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "Mohammad Salehnia",
+            "email": "salehnia.msn@gmail.com"
+        }
+    ],
     "require": {
         "php": "^8.1"
     },
@@ -21,5 +27,12 @@
         "sort-packages": true,
         "preferred-install": "dist",
         "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mohammadsalehnia\\Likeable\\LikeableServiceProvider"
+            ]
+        }
     }
 }
